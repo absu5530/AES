@@ -12,7 +12,8 @@ Education Testing Service (ETS) is perhaps the most well-known of these testing 
 - proportion of style comments
 - organization and development scores
 - features rewarding idiomatic phraseology
-- As can be seen, none of these features actually assess the analytical merits of the essay directly. The goal of this project is to implement a scoring algorithm based on this method using linear SVM and as many of these features as possible to try and see what accuracy can be reached.
+
+The goal of this project is to implement a scoring algorithm based on this method using linear SVM and as many of these features as possible to try and see what accuracy can be reached.
 
 There is a large data set of graded essays that was uploaded onto the predictive modeling and analytics platform Kaggle by the William Flora Hewlett Foundation about six years ago as part of a competition to find the best automated scoring algorithm. The data consists of eight essay sets with between 1000-3000 essays in each set, and the rubrics for grading the essays. Each essay is about 100-550 words long. Some of the essays are more dependent on a particular source text than others, and the rubrics reflect this in their grade brackets. The data for each essay set consists of the essays themselves, one or more scores for each essay (the score ranges are different across the essay sets) and a resolved score if there is more than one score. This is the data that will be used to train this essay grader algorithm. The input data for the grader would be entire essays (and their corresponding question prompts) and the output would be scores.
 
