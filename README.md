@@ -1,4 +1,4 @@
-AUTOMATED ESSAY SCORER
+#AUTOMATED ESSAY SCORER
 
 Automated essay scorers are used by a number of testing services in order to reduce the dependency on human resources in the grading process. Standardized tests, which are taken by large numbers of people and tend to have a predetermined and consistent format are especially suitable for this type of technology.
 
